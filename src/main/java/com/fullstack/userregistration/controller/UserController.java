@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin("https://amrit12001703.github.io")
+@CrossOrigin(origins = {"https://amrit12001703.github.io","https://amrit12001703.github.io/user-registration-ui"})
 public class UserController {
 
  @Autowired
